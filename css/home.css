@@ -1,0 +1,375 @@
+@import url("https://fonts.googleapis.com/css2?family=Italianno&display=swap");
+
+.navbar {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 100%;
+  height: 65px;
+  left: 0px;
+  top: 0px;
+
+  background: #fafafa;
+  border: 1px solid #000000;
+}
+/*Elementos del Navbar*/
+.phone-number {
+  position: absolute;
+  width: 171px;
+  height: 24px;
+  left: 125px;
+  top: 20px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+
+  color: #000000;
+}
+
+.phone-logo {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  left: 90px;
+  top: 20px;
+  background: url("https://api.iconify.design/carbon/phone-filled.svg")
+    no-repeat center center / contain;
+}
+
+.mail-icon {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  left: 361px;
+  top: 20px;
+  background: url("https://api.iconify.design/carbon/email.svg") no-repeat
+    center center / contain;
+}
+
+.Mail-address {
+  position: absolute;
+  width: 201px;
+  height: 24px;
+  left: 402px;
+  top: 20px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  text-decoration: none;
+
+  color: #000000;
+}
+
+.Mail-address a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.clock-logo {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  left: 780px;
+  top: 20px;
+  background: url("https://api.iconify.design/bi/clock.svg") no-repeat center
+    center / contain;
+}
+
+.schedule {
+  position: absolute;
+  width: 536px;
+  height: 24px;
+  left: 840px;
+  top: 20px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+
+  color: #000000;
+}
+/*fin clase navbar*/
+/*------------------*/
+
+/*clase navbar principal*/
+.Nav_1 {
+  width: 100%;
+  height: 150px;
+  left: 0px;
+  top: 250px;
+  display: flex;
+  list-style: none;
+}
+.Nav_1 button {
+  position: absolute;
+  border-radius: 15px;
+  border-color: #f2811d;
+  background-color: #f2811d;
+  font-family: "Inter";
+  font-style: normal;
+  color: #fafafa;
+  width: 145px;
+  height: 25px;
+  top: 90px;
+  left: 1180px;
+}
+
+.Nav_1 button:hover {
+  border-color: #f2811d;
+  background-color: #fafafa;
+  color: #f2811d;
+}
+
+.logo {
+  position: absolute;
+  width: 240px;
+  height: 105px;
+  left: 80px;
+  top: 55px;
+  background: url("../img/Logo.png") no-repeat center;
+}
+
+.search_bar {
+  position: absolute;
+  width: 430px;
+  height: 33px;
+  left: 440px;
+  top: 140px;
+  border-radius: 15px;
+  font-family: "Inter";
+  font-style: normal;
+  background-color: #fafafa;
+}
+
+.menu {
+  position: absolute;
+  width: 661px;
+  height: 32px;
+  left: 400px;
+  top: 70px;
+  display: flex;
+  list-style: none;
+  gap: 3rem;
+  font-family: "Inter";
+  font-style: normal;
+  font-size: 20px;
+}
+.cart-icon {
+  background: url("https://api.iconify.design/el/shopping-cart-sign.svg")
+    no-repeat center center / contain;
+  position: absolute;
+  top: 80px;
+  right: 100px;
+  width: 50px;
+  height: 50px;
+}
+.menu li a {
+  text-decoration: none;
+  color: #000000;
+}
+/*Inicio de la secion banner*/
+.banner_img {
+  position: absolute;
+  width: 100%;
+  height: 360px;
+  left: 0px;
+  top: 230px;
+  background: url("../img/Banner.png");
+}
+/*----------------*/
+
+.banner_img h1 {
+  position: absolute;
+  width: 279px;
+  height: 40px;
+  left: 115px;
+
+  font-family: "Italianno", cursive;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 40px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #000000;
+}
+
+.banner_img h2 {
+  position: absolute;
+  width: 346px;
+  height: 29px;
+  left: 155px;
+  top: 30px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 42px;
+  line-height: 51px;
+  text-align: center;
+
+  color: #000000;
+}
+
+.banner_img h3 {
+  position: absolute;
+  width: 412px;
+  height: 17px;
+  left: 165px;
+  top: 130px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 11px;
+  line-height: 12px;
+  text-align: center;
+
+  color: #000000;
+}
+
+.banner_img button {
+  position: absolute;
+  border-radius: 15px;
+  border-color: #f2811d;
+  background-color: #f2811d;
+  font-family: "Inter";
+  font-style: normal;
+  color: #fafafa;
+  width: 145px;
+  height: 25px;
+  top: 200px;
+  left: 170px;
+}
+
+.banner_img button a {
+  text-decoration: none;
+  color: #fafafa;
+}
+
+.banner_img button a:hover {
+  text-decoration: none;
+  color: #f2811d;
+}
+
+.banner_img button:hover {
+  background-color: #fafafa;
+  color: #f2811d;
+  border-color: #f2811d;
+  top: 200px;
+  left: 170px;
+}
+/*Finalizado el Banner */
+
+/*---------------------*/
+
+/*Inicio de Pagina*/
+.welcome {
+  position: absolute;
+  width: 100%;
+  height: 845px;
+  left: 0px;
+  top: 590px;
+}
+
+.welcome h1 {
+  position: absolute;
+  width: 117px;
+  height: 40px;
+
+  font-family: "Italianno";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 40px;
+
+  text-align: center;
+  left: 50%;
+
+  color: #000000;
+}
+
+.welcome h2 {
+  position: absolute;
+  width: 204px;
+  height: 29px;
+  left: 720px;
+  top: 60px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+
+  color: #000000;
+}
+
+.img_cosmetics {
+  position: absolute;
+  width: 488px;
+  height: 406px;
+  left: 143px;
+  top: 235px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  background-image: url("../img/Cosméticos\ naturales\ 1.png");
+}
+
+.welcome p {
+  position: absolute;
+  width: 613px;
+  height: 506px;
+  left: 733px;
+  top: 235px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 22px;
+
+  color: #000000;
+}
+
+.welcome button {
+    position: absolute;
+    border-radius: 15px;
+    border-color: #f2811d;
+    background-color: #f2811d;
+    font-family: "Inter";
+    font-style: normal;
+    color: #fafafa;
+    width: 145px;
+    height: 30px;
+    top: 741px;
+    left: 631px;
+  }
+
+  
+.welcome button:hover {
+    position: absolute;
+    border-radius: 15px;
+    border-color: #f2811d;
+    background-color: #fafafa;
+    font-family: "Inter";
+    font-style: normal;
+    color: #f2811d;
+    width: 145px;
+    height: 30px;
+    top: 741px;
+    left: 631px;
+  }
