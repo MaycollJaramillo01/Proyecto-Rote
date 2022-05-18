@@ -1,0 +1,56 @@
+body {
+  position: relative;
+  width: 1440px;
+  height: 1024px;
+
+  background: #ffffff;
+}
+h1 {
+  position: absolute;
+  width: 514px;
+  height: 23px;
+  left: 463px;
+  top: 91px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 77px;
+  text-align: center;
+
+  color: #000000;
+}
+
+h2 {
+  position: absolute;
+  width: 707px;
+  height: 23px;
+  left: 367px;
+  top: 202px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 39px;
+  text-align: start;
+
+  color: #000000;
+}
+h3{
+    position: absolute;
+    width: 707px;
+    height: 23px;
+    left: 320px;
+    top: 197px;
+  
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 39px;
+    text-align:end;
+  
+    color: #f2811D;
+}

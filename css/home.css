@@ -346,30 +346,704 @@
 }
 
 .welcome button {
-    position: absolute;
-    border-radius: 15px;
-    border-color: #f2811d;
-    background-color: #f2811d;
-    font-family: "Inter";
-    font-style: normal;
-    color: #fafafa;
-    width: 145px;
-    height: 30px;
-    top: 741px;
-    left: 631px;
-  }
+  position: absolute;
+  border-radius: 15px;
+  border-color: #f2811d;
+  background-color: #f2811d;
+  font-family: "Inter";
+  font-style: normal;
+  color: #fafafa;
+  width: 145px;
+  height: 30px;
+  top: 700px;
+  left: 280px;
+}
 
-  
 .welcome button:hover {
-    position: absolute;
-    border-radius: 15px;
-    border-color: #f2811d;
-    background-color: #fafafa;
-    font-family: "Inter";
-    font-style: normal;
-    color: #f2811d;
-    width: 145px;
-    height: 30px;
-    top: 741px;
-    left: 631px;
-  }
+  position: absolute;
+  border-radius: 15px;
+  border-color: #f2811d;
+  background-color: #fafafa;
+  font-family: "Inter";
+  font-style: normal;
+  color: #f2811d;
+  width: 145px;
+  height: 30px;
+  top: 700px;
+  left: 280px;
+}
+
+/*Products*/
+
+.Products_new {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 100%;
+  height: 450px;
+  left: 0px;
+  top: 1420px;
+
+  background: #ffffff;
+  border: 5px solid #f2811d;
+}
+
+.Products_text {
+  position: absolute;
+  width: 600px;
+  height: 60px;
+
+  font-family: "Italianno";
+  font-style: normal;
+  font-weight: 40;
+  font-size: 48px;
+  line-height: 28px;
+  /* identical to box height */
+  top: 1300px;
+  left: 35%;
+  text-align: center;
+
+  color: #f2811d;
+}
+
+/*Products*/
+.acid_1 {
+  position: absolute;
+  width: 219px;
+  height: 293px;
+  left: 49px;
+  top: 11px;
+  background: url("../img/Aceite1.png");
+}
+
+.acid_1 h1 {
+  position: absolute;
+  width: 280px;
+  height: 17px;
+  left: 18px;
+  top: 296px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: start;
+
+  color: #000000;
+}
+
+.acid_1 h2 {
+  position: absolute;
+  width: 69px;
+  height: 17px;
+  left: 20px;
+  top: 327px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: start;
+
+  color: #000000;
+}
+
+.acid_1 button {
+  position: absolute;
+  border-color: #fff;
+  background: #f2811d;
+  border-radius: 5px;
+  font-family: "Inter";
+  font-style: normal;
+  color: #fafafa;
+  width: 150px;
+  height: 35px;
+  top: 380px;
+  left: 35px;
+}
+
+.acid_1 button:hover {
+  position: absolute;
+  border-color: #f2811d;
+  background: #fff;
+  border-radius: 5px;
+  font-family: "Inter";
+  font-style: normal;
+  color: #f2811d;
+  width: 150px;
+  height: 35px;
+  top: 380px;
+  left: 35px;
+}
+/*acid_2*/
+
+.acid_2 {
+  position: absolute;
+  width: 219px;
+  height: 293px;
+  left: 378px;
+  top: 11px;
+  background: url("../img/Aceite2.png");
+}
+
+.acid_2 h1 {
+  position: absolute;
+  width: 280px;
+  height: 17px;
+  left: 5px;
+  top: 296px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: start;
+
+  color: #000000;
+}
+
+.acid_2 h2 {
+  position: absolute;
+  width: 69px;
+  height: 17px;
+  left: 5px;
+  top: 327px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: start;
+
+  color: #000000;
+}
+
+.acid_2 button {
+  position: absolute;
+  border-color: #fff;
+  background: #f2811d;
+  border-radius: 5px;
+  font-family: "Inter";
+  font-style: normal;
+  color: #fafafa;
+  width: 150px;
+  height: 35px;
+  top: 380px;
+  left: 20px;
+}
+
+.acid_2 button:hover {
+  position: absolute;
+  border-color: #f2811d;
+  background: #fff;
+  border-radius: 5px;
+  font-family: "Inter";
+  font-style: normal;
+  color: #f2811d;
+  width: 150px;
+  height: 35px;
+  top: 380px;
+  left: 20px;
+}
+/*Aceites 1*/
+/*----------------------------*/
+
+.aceite_1 {
+  position: absolute;
+  width: 219px;
+  height: 293px;
+  left: 740px;
+  top: 11px;
+  background: url("../img/Acido\ 1.png");
+}
+
+.aceite_1 h1 {
+  position: absolute;
+  width: 280px;
+  height: 17px;
+  left: 5px;
+  top: 296px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: start;
+
+  color: #000000;
+}
+
+.aceite_1 h2 {
+  position: absolute;
+  width: 69px;
+  height: 17px;
+  left: 5px;
+  top: 327px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: start;
+
+  color: #000000;
+}
+
+.aceite_1 button {
+  position: absolute;
+  border-color: #fff;
+  background: #f2811d;
+  border-radius: 5px;
+  font-family: "Inter";
+  font-style: normal;
+  color: #fafafa;
+  width: 150px;
+  height: 35px;
+  top: 380px;
+  left: 20px;
+}
+
+.aceite_1 button:hover {
+  position: absolute;
+  border-color: #f2811d;
+  background: #fff;
+  border-radius: 5px;
+  font-family: "Inter";
+  font-style: normal;
+  color: #f2811d;
+  width: 150px;
+  height: 35px;
+  top: 380px;
+  left: 20px;
+}
+/*------------------------------*/
+
+.aceite_2 {
+  position: absolute;
+  width: 219px;
+  height: 293px;
+  left: 1084px;
+  top: 11px;
+  background: url("../img/Acido\ 1.png");
+}
+
+.aceite_2 h1 {
+  position: absolute;
+  width: 280px;
+  height: 17px;
+  left: 5px;
+  top: 296px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: start;
+
+  color: #000000;
+}
+
+.aceite_2 h2 {
+  position: absolute;
+  width: 69px;
+  height: 17px;
+  left: 5px;
+  top: 327px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: start;
+
+  color: #000000;
+}
+
+.aceite_2 button {
+  position: absolute;
+  border-color: #fff;
+  background: #f2811d;
+  border-radius: 5px;
+  font-family: "Inter";
+  font-style: normal;
+  color: #fafafa;
+  width: 150px;
+  height: 35px;
+  top: 380px;
+  left: 20px;
+}
+
+.aceite_2 button:hover {
+  position: absolute;
+  border-color: #f2811d;
+  background: #fff;
+  border-radius: 5px;
+  font-family: "Inter";
+  font-style: normal;
+  color: #f2811d;
+  width: 150px;
+  height: 35px;
+  top: 380px;
+  left: 20px;
+}
+/*--------------------------*/
+.publicidad {
+  position: absolute;
+  width: 100%;
+  height: 515px;
+  left: 0px;
+  top: 1873px;
+  background-color: #fff;
+}
+
+.glass {
+  position: absolute;
+  width: 574px;
+  height: 496px;
+  left: 77px;
+  top: 40px;
+
+  background: url("../img/Glass.png");
+  filter: drop-shadow(0px 14px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 15px;
+}
+
+.card_glass {
+  position: absolute;
+  width: 417px;
+  height: 297px;
+  left: 180px;
+  top: 41px;
+
+  background: linear-gradient(
+    151.94deg,
+    rgba(208, 207, 207, 0.25) 1.34%,
+    rgba(208, 207, 207, 0.05) 98.72%
+  );
+  box-shadow: 8px 8px 25px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(10px);
+
+  border-radius: 20px;
+}
+.card_glass h1 {
+  position: absolute;
+  width: 267px;
+  height: 148px;
+  left: 50px;
+  top: 41px;
+
+  font-family: "League Gothic";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 62px;
+  line-height: 74px;
+
+  color: #000000;
+}
+
+.publicidad button {
+  position: absolute;
+  left: 250px;
+  top: 400px;
+
+  background: linear-gradient(
+    151.94deg,
+    rgba(208, 207, 207, 0.25) 1.34%,
+    rgba(208, 207, 207, 0.05) 98.72%
+  );
+  box-shadow: 8px 8px 25px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(10px);
+  height: 50px;
+  width: 150px;
+  border-color: #fff;
+  border-radius: 25px;
+
+  font-family: "League Gothic";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.publicidad button:hover {
+  position: absolute;
+  left: 250px;
+  top: 400px;
+
+  background: linear-gradient(
+    151.94deg,
+    rgba(208, 207, 207, 0.25) 1.34%,
+    rgba(208, 207, 207, 0.05) 98.72%
+  );
+  box-shadow: 8px 8px 25px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(10px);
+  height: 50px;
+  width: 150px;
+  border-color: #f2811d;
+  border-radius: 25px;
+  color: #f2811d;
+
+  font-family: "League Gothic";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.promocion {
+  position: absolute;
+  width: 616px;
+  height: 450px;
+  left: 777px;
+  top: 27px;
+
+  background: url("../img/Rectangle\ 1.png");
+  filter: drop-shadow(8px 8px 25px rgba(0, 0, 0, 0.25));
+  backdrop-filter: blur(10px);
+
+  border-radius: 20px;
+}
+
+.promocion h1 {
+  position: absolute;
+  width: 267px;
+  height: 82px;
+  left: 30px;
+  top: 30px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 34px;
+  line-height: 41px;
+
+  color: #000000;
+}
+
+.promocion h2 {
+  position: absolute;
+  width: 267px;
+  height: 58px;
+  left: 30px;
+  top: 162px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+
+  color: #000000;
+}
+
+.promocion button {
+  position: absolute;
+  left: 20px;
+  top: 300px;
+
+  background: linear-gradient(
+    151.94deg,
+    rgba(208, 207, 207, 0.25) 1.34%,
+    rgba(208, 207, 207, 0.05) 98.72%
+  );
+  box-shadow: 8px 8px 25px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(10px);
+  height: 50px;
+  width: 150px;
+  border-color: #fff;
+  border-radius: 25px;
+
+  font-family: "League Gothic";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.promocion button:hover {
+  position: absolute;
+  left: 20px;
+  top: 300px;
+
+  background: linear-gradient(
+    151.94deg,
+    rgba(208, 207, 207, 0.25) 1.34%,
+    rgba(208, 207, 207, 0.05) 98.72%
+  );
+  box-shadow: 8px 8px 25px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(10px);
+  height: 50px;
+  width: 150px;
+  border-color: #f2811d;
+  border-radius: 25px;
+  color: #f2811d;
+
+  font-family: "League Gothic";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+}
+
+footer {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 100%;
+  height: 450px;
+  left: 0px;
+  top: 2420px;
+
+  border: 11px solid #f2811d;
+}
+
+footer .logo_f {
+  position: absolute;
+  left: 3.4%;
+  right: 80.07%;
+  top: 8.01%;
+  bottom: 65.5%;
+
+  background: url("../img/Logo.png");
+}
+
+footer h1 {
+  position: absolute;
+  left: 3.4%;
+  right: 60%;
+  top: 44.25%;
+  bottom: 27.66%;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+
+  color: #000000;
+}
+
+.line {
+  position: absolute;
+  left: 30%;
+  right: 40%;
+  top: 210px;
+  bottom: 0%;
+  height: 0.01px;
+
+  border: 4px solid #f2811d;
+  background-color: #f2811d;
+  transform: rotate(-90deg);
+}
+
+footer h2 {
+  position: absolute;
+  left: 52.99%;
+  right: 37.78%;
+  top: 6.01%;
+  bottom: 86.97%;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  /* identical to box height */
+
+  color: #000000;
+}
+
+footer .contact {
+  position: absolute;
+  width: 661px;
+  height: 32px;
+  left: 750px;
+  top: 90px;
+
+  list-style: none;
+  gap: 3rem;
+  font-family: "Inter";
+  font-style: normal;
+  font-size: 20px;
+  text-decoration: none;
+  color: #000000;
+}
+
+footer .contact li a {
+  text-decoration: none;
+  color: #000000;
+}
+
+footer .location {
+  position: absolute;
+  right: 720px;
+  top: 107px;
+  background: url("../img/location_logo.png");
+  width: 24px;
+  height: 24px;
+}
+
+footer .email_s {
+  position: absolute;
+  right: 720px;
+  top: 180px;
+  width: 24px;
+  height: 24px;
+  background: url("https://api.iconify.design/fontisto/email.svg") no-repeat
+    center center / contain;
+}
+
+footer .phone {
+  position: absolute;
+  right: 720px;
+  top: 250px;
+  background: url("https://api.iconify.design/carbon/phone-filled.svg")
+    no-repeat center center / contain;
+  width: 24px;
+  height: 24px;
+}
+
+footer .other {
+  position: absolute;
+  width: 661px;
+  height: 32px;
+  left: 1200px;
+  top: 90px;
+
+  list-style: none;
+  gap: 3rem;
+  font-family: "Inter";
+  font-style: normal;
+  font-size: 20px;
+  text-decoration: none;
+  color: #000000;
+}
+
+footer .other li a {
+  text-decoration: none;
+  color: #f2811d;
+}
+
+footer .other li a:hover {
+  text-decoration: none;
+  color: #000;
+}
+
+footer h3 {
+  position: absolute;
+  left: 1250px;
+  top: 20px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  /* identical to box height */
+
+  color: #000000;
+}
