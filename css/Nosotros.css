@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Italianno&display=swap");
+.tittle {
+  position: absolute;
+  width: 400px;
+  height: 80px;
+  left: 471px;
+  top: 249px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 48px;
+  line-height: 58px;
+  text-align: center;
+
+  color: #000000;
+}
+.tittle h1 {
+  position: absolute;
+  width: 50%;
+  height: 80px;
+  top: 0px;
+  left: 35%;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 48px;
+  line-height: 58px;
+  text-align: center;
+
+  color: #000000;
+}
+
+.tittle h2 {
+  position: absolute;
+  width: 392px;
+  height: 0px;
+  left: 50px;
+  top: 30px;
+
+  border: 1px solid #f2811d;
+  background-color: #f2811d;
+}
+
+.about_us {
+  position: absolute;
+  width: 576px;
+  height: 324px;
+  left: 75px;
+  top: 579px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 32px;
+  line-height: 39px;
+  text-align: start;
+
+  color: #000000;
+}
+
+.img_ban {
+  position: absolute;
+  width: 420px;
+  height: 415px;
+  left: 795px;
+  top: 534px;
+  background: url("../img/About_us.png") no-repeat center;
+}
+
+.cosmetic {
+  position: absolute;
+  width: 650px;
+  height: 754px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 150;
+  font-size: 24px;
+  line-height: 29px;
+
+  color: #000000;
+
+  top: 1120px;
+  right: 80px;
+}
+
+.img2_ban {
+  position: absolute;
+  width: 574px;
+  height: 496px;
+  left: 26px;
+  top: 1114px;
+
+  background: url("../img/Cosméticos\ naturales\ 3.png");
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 15px;
+}
+
+button {
+  height: 51px;
+  width: 218px;
+  left: 200px;
+  top: 1700px;
+  border-radius: 5px;
+  position: absolute;
+
+  background: #f2811d;
+  border-radius: 5px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+button:hover {
+    height: 51px;
+    width: 218px;
+    left: 200px;
+    top: 1700px;
+    border-radius: 5px;
+    position: absolute;
+
+  background: #fff;
+  border-radius: 5px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+
+  color: #f2811d;
+}

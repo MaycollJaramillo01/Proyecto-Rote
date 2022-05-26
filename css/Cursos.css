@@ -1,0 +1,406 @@
+@import url("https://fonts.googleapis.com/css2?family=Italianno&display=swap");
+.tittle {
+  position: absolute;
+  width: 400px;
+  height: 80px;
+  left: 471px;
+  top: 249px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 48px;
+  line-height: 58px;
+  text-align: center;
+
+  color: #000000;
+}
+.tittle h1 {
+  position: absolute;
+  width: 50%;
+  height: 80px;
+  top: 0px;
+  left: 35%;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 48px;
+  line-height: 58px;
+  text-align: center;
+
+  color: #000000;
+}
+
+.tittle h2 {
+  position: absolute;
+  width: 392px;
+  height: 0px;
+  left: 50px;
+  top: 30px;
+
+  border: 1px solid #f2811d;
+  background-color: #f2811d;
+}
+
+.png {
+  position: absolute;
+  width: 420px;
+  height: 415px;
+  background: url("../img/image\ 1.png");
+  top: 60%;
+  left: 10%;
+}
+
+.text_h1 {
+  position: absolute;
+  width: 709px;
+  height: 507px;
+  left: 697px;
+  top: 420px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 39px;
+
+  color: #000000;
+}
+
+.text_h2 {
+  position: absolute;
+  width: 514px;
+  height: 23px;
+  left: 500px;
+  top: 1000px;
+
+  font-family: "Inter";
+  font-style: initial;
+  font-weight: 100;
+  font-size: 48px;
+  line-height: 58px;
+  text-align: center;
+
+  color: #000000;
+}
+/*---------------------------------*/
+.taller_1 {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 365px;
+  height: 500px;
+  left: 100px;
+  top: 1211px;
+  border: 1px solid #f2811d;
+}
+
+.taller_1 .img {
+  position: absolute;
+  width: 363px;
+  height: 242px;
+  left: 0px;
+  top: 0px;
+  background: url("../img/image\ 2.png");
+}
+
+.taller_1 h1 {
+  position: absolute;
+  width: 514px;
+  height: 23px;
+  left: -90px;
+  top: 250px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 34px;
+  text-align: center;
+
+  color: #000000;
+}
+
+.taller_1 h2 {
+  position: absolute;
+  width: 160px;
+  height: 23px;
+  left: -10px;
+  top: 350px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: center;
+
+  color: #000000;
+
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.taller_1 button {
+  position: absolute;
+  left: 10.07%;
+  right: 74.79%;
+  top: 74.32%;
+  bottom: 24.14%;
+
+  background: #f2811d;
+
+  height: 34px;
+  width: 218px;
+  left: 50px;
+  top: 400px;
+  border-radius: 0px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.taller_1 button:hover {
+  position: absolute;
+  left: 10.07%;
+  right: 74.79%;
+  top: 74.32%;
+  bottom: 24.14%;
+
+  background: #fff;
+
+  height: 34px;
+  width: 218px;
+  left: 50px;
+  top: 400px;
+  border-radius: 0px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+
+  color: #f2811d;
+}
+
+/*----------------------------------*/
+.taller_2 {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 365px;
+  height: 500px;
+  left: 600px;
+  top: 1211px;
+  border: 1px solid #f2811d;
+}
+
+.taller_2 .img {
+  position: absolute;
+  width: 363px;
+  height: 242px;
+  left: 0px;
+  top: 0px;
+  background: url("../img/image\ 2.png");
+}
+
+.taller_2 h1 {
+  position: absolute;
+  width: 514px;
+  height: 23px;
+  left: -90px;
+  top: 250px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 34px;
+  text-align: center;
+
+  color: #000000;
+}
+
+.taller_2 h2 {
+  position: absolute;
+  width: 160px;
+  height: 23px;
+  left: -10px;
+  top: 350px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: center;
+
+  color: #000000;
+
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.taller_2 button {
+  position: absolute;
+  left: 10.07%;
+  right: 74.79%;
+  top: 74.32%;
+  bottom: 24.14%;
+
+  background: #f2811d;
+
+  height: 34px;
+  width: 218px;
+  left: 50px;
+  top: 400px;
+  border-radius: 0px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.taller_2 button:hover {
+  position: absolute;
+  left: 10.07%;
+  right: 74.79%;
+  top: 74.32%;
+  bottom: 24.14%;
+
+  background: #fff;
+
+  height: 34px;
+  width: 218px;
+  left: 50px;
+  top: 400px;
+  border-radius: 0px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+
+  color: #f2811d;
+}
+
+/*----------------------------*/
+.taller_3 {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 365px;
+  height: 500px;
+  left: 1100px;
+  top: 1211px;
+  border: 1px solid #f2811d;
+}
+
+.taller_3 .img {
+  position: absolute;
+  width: 363px;
+  height: 242px;
+  left: 0px;
+  top: 0px;
+  background: url("../img/image\ 2.png");
+}
+
+.taller_3 h1 {
+  position: absolute;
+  width: 514px;
+  height: 23px;
+  left: -90px;
+  top: 250px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 34px;
+  text-align: center;
+
+  color: #000000;
+}
+
+.taller_3 h2 {
+  position: absolute;
+  width: 160px;
+  height: 23px;
+  left: -10px;
+  top: 350px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: center;
+
+  color: #000000;
+
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.taller_3 button {
+  position: absolute;
+  left: 10.07%;
+  right: 74.79%;
+  top: 74.32%;
+  bottom: 24.14%;
+
+  background: #f2811d;
+
+  height: 34px;
+  width: 218px;
+  left: 50px;
+  top: 400px;
+  border-radius: 0px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.taller_3 button:hover {
+  position: absolute;
+  left: 10.07%;
+  right: 74.79%;
+  top: 74.32%;
+  bottom: 24.14%;
+
+  background: #fff;
+
+  height: 34px;
+  width: 218px;
+  left: 50px;
+  top: 400px;
+  border-radius: 0px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+
+  color: #f2811d;
+}
